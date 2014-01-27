@@ -37,10 +37,10 @@
   <h1>Home page</h1>
   <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
   <div style="width:240px; margin-left: 170px;">
-<a href="/myapp/person/add.ini" class="btn btn-primary btn-lg  btn-block" role="button"><span class="glyphicon glyphicon-user"></span><span style="margin: 0px 15px;">Add a Person</span></a>
+<a href="${pageContext.request.contextPath}/person/add.ini" class="btn btn-primary btn-lg  btn-block" role="button"><span class="glyphicon glyphicon-user"></span><span style="margin: 0px 15px;">Add a Person</span></a>
 <a href="#" class="btn btn-primary btn-lg btn-block" role="button"><span class="glyphicon glyphicon-search"></span><span style="margin: 0px 15px;">Search a Person</span></a>
-<a href="/myapp/person/list.ini" class="btn btn-primary btn-lg btn-block" role="button"><span class="glyphicon glyphicon-list"></span><span style="margin: 0px 15px;">List all people</span></a>
-<a href="/myapp/login/signOut.ini" class="btn btn-danger btn-lg btn-block" role="button"><span class="glyphicon glyphicon-off"></span><span style="margin: 0px 15px;">Log Out</span></a>
+<a href="${pageContext.request.contextPath}/person/list.ini" class="btn btn-primary btn-lg btn-block" role="button"><span class="glyphicon glyphicon-list"></span><span style="margin: 0px 15px;">List all people</span></a>
+<a href="${pageContext.request.contextPath}/login/signOut.ini" class="btn btn-danger btn-lg btn-block" role="button"><span class="glyphicon glyphicon-off"></span><span style="margin: 0px 15px;">Log Out</span></a>
 </div>
 </div>
 
